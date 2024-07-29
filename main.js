@@ -1,11 +1,9 @@
 import './style.css'
 import javascriptLogo from './javascript.svg'
 import viteLogo from '/vite.svg'
-import { environmentsComponent } from './public/src/concepts/environment'
-import { callbacksComponent } from './public/src/concepts/02-callbacks'
-import { promiseComponent } from './public/src/concepts/03-promises'
-import { promiseRaceComponent } from './public/src/concepts/04-promises_race'
-import { asyncComponent } from './public/src/concepts/async'
+import { asyncAwaitComponent } from './public/src/concepts/06-async-await'
+import { asyncAwait2Component } from './public/src/concepts/07-aync-awaitRace'
+import { forAwaitComponent } from './public/src/concepts/08-for-await'
 document.querySelector('#app').innerHTML = `
   <div>
     <a href="https://vitejs.dev" target="_blank">
@@ -24,4 +22,6 @@ const element = document.querySelector('.card');
 // environmentsComponent(element);
 // callbacksComponent(element);
 // promiseComponent(element)
-asyncComponent(element); 
+// asyncComponent(element); 
+// asyncAwait2Component(element);
+forAwaitComponent(element);

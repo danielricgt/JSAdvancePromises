@@ -26,5 +26,5 @@ const mediumPromess = () =>
 
 const largePromess = () =>
   new Promise((resolve) => {
-    setTimeout(() => resolve("fast"), 1300);
+    setTimeout(() => resolve("fast"), 500);
   });
