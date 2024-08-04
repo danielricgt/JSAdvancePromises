@@ -7,7 +7,6 @@ import { heroes } from "./heroes";
 export const asyncAwaitComponent = async (element) => {
     const id1 = '5d86371fd55e2e2a30fe1cc3'; 
     const id2 = '5d86371fd55e2e2a30fecc4';
-
     try {
         const { name: antMan } = await findHero(id1);
         const hero2 = await findHero(id2);

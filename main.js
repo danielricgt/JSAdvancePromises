@@ -4,6 +4,8 @@ import viteLogo from '/vite.svg'
 import { asyncAwaitComponent } from './public/src/concepts/06-async-await'
 import { asyncAwait2Component } from './public/src/concepts/07-aync-awaitRace'
 import { forAwaitComponent } from './public/src/concepts/08-for-await'
+import { generatorFunctionsComponent } from './public/src/concepts/09-generators'
+import { generatorAsyncComponent } from './public/src/concepts/10-generatorAsync'
 document.querySelector('#app').innerHTML = `
   <div>
     <a href="https://vitejs.dev" target="_blank">
@@ -24,4 +26,6 @@ const element = document.querySelector('.card');
 // promiseComponent(element)
 // asyncComponent(element); 
 // asyncAwait2Component(element);
-forAwaitComponent(element);
+// forAwaitComponent(element);
+// generatorFunctionsComponent(element);
+generatorAsyncComponent(element);
